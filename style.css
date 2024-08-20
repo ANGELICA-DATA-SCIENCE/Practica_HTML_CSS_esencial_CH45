@@ -1,0 +1,91 @@
+body{
+    background-image: linear-gradient(220deg, #0000009c 0%, #0000009c 100%), url(/assets/3d-rendering-hexagonal-texture-background.jpg);
+    font-family: "PT Sans", system-ui;
+    margin: 30px 20px 30px 20px;
+    padding: 20px 0px 20px 0px;
+    border: 20px 20px 20px 20px;
+    color: aliceblue;
+
+
+}
+
+.nav {
+    --padding-container: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav__title {
+    font-weight: 300;
+}
+
+.nav__link {
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.nav__items {
+    list-style: none;
+}
+
+.nav__links {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__menu {
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+
+.nav__img {
+    display: block;
+    width: 30px;
+}
+
+
+.nav__close {
+    display: var(--show, none);
+}
+
+h1{
+    font-family: font-family: "Cabin", sans-serif;
+    color:burlywood;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+h2, h3, h4, h5, h6{
+    color:burlywood;
+    font-family: "PT Sans", system-ui;
+    margin: 30px 20px 30px 20px;
+}
+
+
+
+#propiedades-container, p {
+    color: azure;
+    font-family: "PT Sans", sans-serif;
+    padding: 20px 0px 20px 0px;
+    margin: 30px 20px 30px 20px;
+}
+
+img{
+    width: 90%;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+
+
+.social-links{
+	height: 40px;
+	width: 40px;
+    margin: 30px 20px 30px 20px;
+}
